@@ -8,7 +8,7 @@ public class PratikNotOrtalamasiHesaplayanProgram {
         System.out.print("Matematik Notunuz:");
         mat=input.nextInt();
         System.out.print("Fizik Notunuz:");
-        fiz=input.nextIn();
+        fiz=input.nextInt();
         System.out.print("Kimya Notunuz:");
         kim=input.nextInt();
         System.out.print("Turkce Notunuz:");
