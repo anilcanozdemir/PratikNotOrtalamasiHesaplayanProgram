@@ -8,10 +8,10 @@ public class PratikNotOrtalamasiHesaplayanProgram {
         System.out.print("Matematik Notunuz:");
         mat=input.nextInt();
         System.out.print("Fizik Notunuz:");
-        fiz=input.nextInt();
+        fiz=input.nextIn();
         System.out.print("Kimya Notunuz:");
         kim=input.nextInt();
-        System.out.print("Türkçe Notunuz:");
+        System.out.print("Turkce Notunuz:");
         tur=input.nextInt();
         System.out.print("Tarih Notunuz:");
         tar=input.nextInt();
@@ -20,6 +20,7 @@ public class PratikNotOrtalamasiHesaplayanProgram {
 
         double ort=(mat+fiz+kim+tur+tar+muz)/6;
         System.out.println("ORTALAMA:"+ort);
-        String durum=(ort>60)?"SINIF GEÇİLDİ":"SINIFTAN GEÇEMEDİNİZ";
+        String durum=(ort>60)?"SINIF GECILDI":"SINIFTAN GECEMEDINIZ";
+        System.out.println(durum);
     }
 }
